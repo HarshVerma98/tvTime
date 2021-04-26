@@ -13,6 +13,7 @@
 		95005AAD2636F08E00FEB5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95005AAB2636F08E00FEB5AC /* Main.storyboard */; };
 		95005AAF2636F09200FEB5AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95005AAE2636F09200FEB5AC /* Assets.xcassets */; };
 		95005AB22636F09200FEB5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95005AB02636F09200FEB5AC /* LaunchScreen.storyboard */; };
+		95005ABC2636F20000FEB5AC /* Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95005ABB2636F20000FEB5AC /* Shows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95005AAE2636F09200FEB5AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95005AB12636F09200FEB5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95005AB32636F09200FEB5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95005ABB2636F20000FEB5AC /* Shows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				95005AA52636F08E00FEB5AC /* AppDelegate.swift */,
 				95005AA72636F08E00FEB5AC /* SceneDelegate.swift */,
 				95005AA92636F08E00FEB5AC /* ViewController.swift */,
+				95005ABB2636F20000FEB5AC /* Shows.swift */,
 				95005AAB2636F08E00FEB5AC /* Main.storyboard */,
 				95005AAE2636F09200FEB5AC /* Assets.xcassets */,
 				95005AB02636F09200FEB5AC /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				95005AAA2636F08E00FEB5AC /* ViewController.swift in Sources */,
 				95005AA62636F08E00FEB5AC /* AppDelegate.swift in Sources */,
+				95005ABC2636F20000FEB5AC /* Shows.swift in Sources */,
 				95005AA82636F08E00FEB5AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
