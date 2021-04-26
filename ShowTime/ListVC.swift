@@ -25,7 +25,15 @@ class ListVC: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dest = segue.destination as! DetailVC
+        let selectIndex = tableView.indexPathForSelectedRow!
+        dest.show = shows.showArray[selectIndex.row].show
+    }
+    
     @IBAction func segmentCtrl(_ sender: UISegmentedControl) {
+        
+        
     }
     
 }
@@ -45,6 +53,6 @@ extension ListVC: UITableViewDelegate, UITableViewDataSource {
         }
         return cell
     }
-    
+   
     
 }
