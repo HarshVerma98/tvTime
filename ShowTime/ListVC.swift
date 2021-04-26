@@ -13,10 +13,12 @@ class ListVC: UIViewController {
     @IBOutlet weak var segmentControl: UISegmentedControl!
     
     var shows = Shows()
+    var searchText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        shows.urlString += searchText
         // Do any additional setup after loading the view.
         shows.getData {
             DispatchQueue.main.async {

@@ -14,7 +14,7 @@ class Shows {
     }
    
     
-    var urlString = "https://api.tvmaze.com/search/shows?q=alien"
+    var urlString = "https://api.tvmaze.com/search/shows?q="
     var showArray: [Returned] = []
     //MARK:- Download Function for Api
     
