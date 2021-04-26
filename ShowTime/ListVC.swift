@@ -34,7 +34,15 @@ class ListVC: UIViewController {
     }
     
     @IBAction func segmentCtrl(_ sender: UISegmentedControl) {
-        
+        switch segmentControl.selectedSegmentIndex {
+            case 0:
+                shows.showArray.sort(by: {$0.show.name < $1.show.name})
+            case 1:
+                shows.showArray.sort(by: {$0.show.rating?.average ?? 0.0 > $1.show.rating?.average ?? 0.0})
+            default:
+                print("Error")
+        }
+        tableView.reloadData()
         
     }
     
@@ -55,6 +63,6 @@ extension ListVC: UITableViewDelegate, UITableViewDataSource {
         }
         return cell
     }
-   
+    
     
 }
